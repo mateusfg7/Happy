@@ -8,6 +8,7 @@
 *.dbf
 *.mdb
 *.pdb
+*.sqlite
 *.sqlite3
 
 ### Node ###
