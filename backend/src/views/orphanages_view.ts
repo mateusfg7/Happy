@@ -13,4 +13,8 @@ export default {
       open_on_weekends: orphanage.open_on_weekends,
     };
   },
+
+  renderMany(orphanages: Orphanage[]) {
+    return orphanages.map((orphanage) => this.render(orphanage));
+  },
 };
