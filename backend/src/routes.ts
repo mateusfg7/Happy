@@ -29,7 +29,7 @@ routes.post("/orphanages", async (request, response) => {
 
   await orphanagesRepository.save(orphanage);
 
-  return response.status(201).json({ message: "Hello Word" });
+  return response.status(201).json(orphanage);
 });
 
 export default routes;
