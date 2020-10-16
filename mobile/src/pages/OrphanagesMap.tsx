@@ -15,7 +15,7 @@ export default function OrphanagesMap() {
   }
 
   function handleNavigateToCreateOrphanage() {
-    navigation.navigate('CreateOrphanage');
+    navigation.navigate('SelectMapPosition');
   }
 
   return (
