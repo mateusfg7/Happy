@@ -10,7 +10,11 @@ import OrphanagesMap from './pages/OrphanagesMap';
 export default function Routes() {
   return (
     <NavigationContainer>
-      <Navigator>
+      <Navigator
+        screenOptions={{
+          headerShown: false,
+        }}
+      >
         <Screen name='OrphanagesMap' component={OrphanagesMap} />
       </Navigator>
     </NavigationContainer>
