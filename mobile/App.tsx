@@ -1,6 +1,13 @@
 import React from 'react';
-import { StyleSheet, Text, View, Dimensions } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  Dimensions,
+  TouchableOpacity,
+} from 'react-native';
 import MapView, { Marker, Callout, PROVIDER_GOOGLE } from 'react-native-maps';
+import { Feather } from '@expo/vector-icons';
 
 import mapMarker from './src/images/map-marker.png';
 
@@ -35,6 +42,17 @@ export default function App() {
           </Callout>
         </Marker>
       </MapView>
+
+      <View style={styles.footer}>
+        <Text style={styles.footerText}>2 orfanatos encontrados</Text>
+
+        <TouchableOpacity
+          style={styles.createOrphanageButton}
+          onPress={() => {}}
+        >
+          <Feather name='plus' size={20} color='#FFF' />
+        </TouchableOpacity>
+      </View>
     </View>
   );
 }
@@ -57,8 +75,41 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     justifyContent: 'center',
   },
+
   calloutText: {
     color: '#0089a5',
     fontSize: 14,
+  },
+
+  footer: {
+    position: 'absolute',
+    left: 24,
+    right: 24,
+    bottom: 32,
+
+    backgroundColor: '#FFF',
+    borderRadius: 20,
+    height: 56,
+    padding: 24,
+
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+
+    elevation: 3,
+  },
+
+  footerText: {
+    color: '#8fa7b3',
+  },
+
+  createOrphanageButton: {
+    width: 56,
+    height: 56,
+    backgroundColor: '#15c3d6',
+    borderRadius: 20,
+
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
