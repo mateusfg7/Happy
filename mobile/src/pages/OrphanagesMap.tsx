@@ -7,11 +7,18 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import MapView, { Marker, Callout, PROVIDER_GOOGLE } from 'react-native-maps';
+import { useNavigation } from '@react-navigation/native';
 import { Feather } from '@expo/vector-icons';
 
 import mapMarker from '../images/map-marker.png';
 
 export default function OrphanagesMap() {
+  const navigation = useNavigation();
+
+  function handleNavigationToOrphanageDetails() {
+    navigation.navigate('OrphanageDetails');
+  }
+
   return (
     <View style={styles.container}>
       <MapView
@@ -35,7 +42,7 @@ export default function OrphanagesMap() {
             longitude: -44.104138,
           }}
         >
-          <Callout tooltip onPress={() => {}}>
+          <Callout tooltip onPress={handleNavigationToOrphanageDetails}>
             <View style={styles.calloutContainer}>
               <Text style={styles.calloutText}>Little Blockchain</Text>
             </View>
