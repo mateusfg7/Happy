@@ -12,6 +12,19 @@ O projeto foi desenvolvido durante a terceira edição da _Next Level Week_, rea
 
 # índice
 
+- [Layout](#layout)
+  - [Web](#web-)
+  - [Mobile](#mobile-)
+- [Tecnologias](#tecnologias)
+  - [Backend](#backend)
+  - [Web](#web)
+  - [Mobile](#mobile)
+- [Iniciar Projeto](#iniciando-o-projeto)
+  - [Backend](#backend-1)
+  - [Web](#web-1)
+  - [Mobile](#mobile-1)
+
+
 ---
 
 # Layout
@@ -34,6 +47,8 @@ O projeto foi desenvolvido durante a terceira edição da _Next Level Week_, rea
 | ![](.github/assets/mobile/Mapa.png) | ![](.github/assets/mobile/Perfil.png) |
 
 
+---
+
 # Tecnologias
 
 ## Backend
@@ -47,6 +62,8 @@ A versão _web_ da aplicação foi desenvolvida com a linguagem/superset [Typesc
 ## Mobile
 
 A versão _mobile_ da aplicação foi desenvolvido com a linguagem/superset [Typescript](https://www.typescriptlang.org/) usando o framework [React Native](https://reactnative.dev/) e as ferramentas do [Expo](https://expo.io/).
+
+---
 
 # Iniciando o projeto
 
