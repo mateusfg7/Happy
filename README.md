@@ -4,6 +4,7 @@
 
 **Happy** é uma plataforma de cadastro e consulta de orfanatos em uma determinada região.
 O projeto foi desenvolvido durante a terceira edição da _Next Level Week_, realizada pela [Rocketseat](https://github.com/Rocketseat), entre os dias 12 e 16 de Outubro de 2020.
+_professor [@diego3g](https://github.com/diego3g)_
 
 ![](https://github.com/rocketseat-education/nlw-03-omnistack/blob/master/.github/happy.png?raw=true)
 
@@ -162,3 +163,11 @@ $ npm install
 ```
 $ expo start
 ```
+
+---
+
+<div align="center">
+
+![mapbox](https://img.shields.io/badge/mapbox-000?&logoColor=FFF&style=for-the-badge&logo=mapbox)![expo](https://img.shields.io/badge/expo-000020?&logoColor=FFF&style=for-the-badge&logo=expo)![sqlite](https://img.shields.io/badge/sqlite-003b57?&logoColor=FFF&style=for-the-badge&logo=sqlite)![typescript](https://img.shields.io/badge/typescript-007acc?&logoColor=FFF&style=for-the-badge&logo=typescript)![react](https://img.shields.io/badge/react-61dafb?&logoColor=000&style=for-the-badge&logo=react)![openstreetmap](https://img.shields.io/badge/openstreetmap-7ebc6f?&logoColor=FFF&style=for-the-badge&logo=openstreetmap)![node](https://img.shields.io/badge/node.js-33933?&logoColor=FFF&style=for-the-badge&logo=node.js)![leaflet](https://img.shields.io/badge/leaflet-199900?&logoColor=FFF&style=for-the-badge&logo=leaflet)
+
+</div>
