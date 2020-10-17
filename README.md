@@ -27,7 +27,7 @@ O projeto foi desenvolvido durante a terceira edição da _Next Level Week_, rea
 
 ---
 
-# Layout
+# 	:black_nib: Layout
 
 ## WEB [![Figma](https://img.shields.io/badge/figma-000?&logoColor=FFF&style=for-the-badge&logo=figma)](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web)
 
@@ -49,25 +49,25 @@ O projeto foi desenvolvido durante a terceira edição da _Next Level Week_, rea
 
 ---
 
-# Tecnologias
+# :technologist: Tecnologias
 
-## Backend
+## :globe_with_meridians: Backend
 
 O _back-end_ da aplicação foi desenvolvido com a linguagem/superset [Typescript](https://www.typescriptlang.org/) usando o framework [NodeJS](https://nodejs.org/en/). O banco de dados escolhido foi o [SQLite](https://sqlite.org/index.html) pela facilidade de configuração, para criar tabelas e adicionar novas colunas foi usado o ORM [typeorm](https://typeorm.io/#/). Foi usado também o pacote [Yup]() para validação de requests.
 
-## Web
+## :computer: Web
 
 A versão _web_ da aplicação foi desenvolvida com a linguagem/superset [Typescript](https://www.typescriptlang.org/) usando o framwork [ReactJS](https://reactjs.org/). O _mapa_ foi feito com a biblioteca [Leaflet](https://leafletjs.com/) e as imagens usando a api do [MapBox](https://www.mapbox.com/) (Tambem foi testada a api grátis do [OpenStreetMap](https://www.openstreetmap.org/)). As chamadas api ao backend foram feitas com o [axios](https://www.npmjs.com/package/axios).
 
-## Mobile
+## :iphone: Mobile
 
 A versão _mobile_ da aplicação foi desenvolvido com a linguagem/superset [Typescript](https://www.typescriptlang.org/) usando o framework [React Native](https://reactnative.dev/) e as ferramentas do [Expo](https://expo.io/).
 
 ---
 
-# Iniciando o projeto
+# :arrow_forward: Iniciando o projeto
 
-## Backend
+## :globe_with_meridians: Backend
 
 Para iniciar o projeto sera necessário ter instalado o [NodeJS](https://nodejs.org/en/) e [npm](https://www.npmjs.com/)/[yarn](https://yarnpkg.com/)
 
@@ -104,7 +104,7 @@ _npm_
 $ npm dev
 ```
 
-## Web
+## :computer: Web
 
 Para iniciar o projeto sera necessário ter instalado o [NodeJS](https://nodejs.org/en/), [ReactJS](https://reactjs.org/) e [npm](https://www.npmjs.com/)/[yarn](https://yarnpkg.com/)
 
@@ -142,7 +142,7 @@ $ npm build
 ```
 > os arquivos estáticos para web ficarão salvos na pasta `public`
 
-## Mobile
+## :iphone: Mobile
 
 Para iniciar o projeto sera necessário ter instalado o [React Native](https://reactnative.dev/), [Expo](https://expo.io/) e [npm](https://www.npmjs.com/)/[yarn](https://yarnpkg.com/). Será necessário tambem ter um cliente do expo instalado em um celular físico ou em um emulador.
 
