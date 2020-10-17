@@ -12,17 +12,17 @@ O projeto foi desenvolvido durante a terceira edição da _Next Level Week_, rea
 
 # índice
 
-- [Layout](#layout)
+- [Layout](#black_nib-layout)
   - [Web](#web-)
   - [Mobile](#mobile-)
-- [Tecnologias](#tecnologias)
-  - [Backend](#backend)
-  - [Web](#web)
-  - [Mobile](#mobile)
-- [Iniciar Projeto](#iniciando-o-projeto)
-  - [Backend](#backend-1)
-  - [Web](#web-1)
-  - [Mobile](#mobile-1)
+- [Tecnologias](#technologist-tecnologias)
+  - [Backend](#globe_with_meridians-backend)
+  - [Web](#computer-web)
+  - [Mobile](#iphone-mobile)
+- [Iniciar Projeto](#arrow_forward-iniciando-o-projeto)
+  - [Backend](#globe_with_meridians-backend-1)
+  - [Web](#computer-web-1)
+  - [Mobile](#iphone-mobile-1)
 
 
 ---
